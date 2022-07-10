@@ -92,6 +92,7 @@ p {
   #lang {
     width: 95%;
     font-size: 10px;
+    font-weight: 900;
   }
 
   .title {
