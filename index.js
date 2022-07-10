@@ -67,7 +67,7 @@ const annoZero = () => {
 
   encryptedWords.map(el=> {
     const container = document.getElementById('lang')
-    container.innerHTML += `<p class="plang">${el}</p>`
+    container.innerHTML += `<div class="divlang"><p>${el}</p></div>`
   })
   console.log(encryptedWords)
 }

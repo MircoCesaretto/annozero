@@ -4,14 +4,27 @@
   padding: 0;
 }
 
+@font-face {
+  src: url(font/1942.ttf);
+  font-family: typewriter;
+}
+
 .container {
   min-height: 100vh;
-  border: 1px solid black;
   padding: 20px 40px;
   max-width: 100vw;
 }
 
-.plang{
+.divlang {
   width: 20%;
-  display: inline;
+  font-family: typewriter;
+}
+
+#lang {
+  display: flex;
+  max-width: 100vw;
+  height: 100%;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 10 0
 }
