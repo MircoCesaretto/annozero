@@ -10,7 +10,7 @@
   font-family: typewriter;
 }
 
-.title{
+.title {
   text-align: center;
   padding: 130px 0px 80px;
   font-size: 50px;
@@ -41,48 +41,57 @@
   padding: 6px 0;
 }
 
-@media screen and (max-width: 1450px){
+p {
+  text-shadow: 3px 3px 5px #0000005f;
+}
+.title{
+  text-shadow: 4px 4px 8px #0000003d;
+}
+
+@media screen and (max-width: 1450px) {
   .divlang {
     width: 25%;
   }
 }
 
-@media screen and (max-width: 1150px){
+@media screen and (max-width: 1150px) {
   .divlang {
     width: 33.33%;
   }
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
   #lang {
     font-size: 18px;
   }
-  .title{
+
+  .title {
     padding: 80px 0px 70px;
     font-size: 40px;
   }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
   #lang {
     width: 80%;
     font-size: 15px;
   }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
   #lang {
     width: 80%;
     font-size: 15px;
   }
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 550px) {
   #lang {
     width: 95%;
     font-size: 10px;
   }
-  .title{
+
+  .title {
     padding: 50px 0px 40px;
     font-size: 30px;
   }
