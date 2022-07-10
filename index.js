@@ -69,7 +69,6 @@ const annoZero = () => {
     const container = document.getElementById('lang')
     container.innerHTML += `<div class="divlang"><p>${el}</p></div>`
   })
-  console.log(encryptedWords)
 }
 annoZero()
 
