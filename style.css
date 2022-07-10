@@ -1,30 +1,89 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 @font-face {
   src: url(font/1942.ttf);
   font-family: typewriter;
 }
 
-.container {
-  min-height: 100vh;
-  padding: 20px 40px;
-  max-width: 100vw;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: typewriter;
 }
 
-.divlang {
-  width: 20%;
-  font-family: typewriter;
+.title{
+  text-align: center;
+  padding: 130px 0px 80px;
+  font-size: 50px;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 20px 40px 250px;
+  max-width: 100vw;
+  background-color: #FFF0D9;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
 }
 
 #lang {
   display: flex;
-  max-width: 100vw;
   height: 100%;
+  width: 70%;
   flex-wrap: wrap;
   text-align: center;
-  padding: 10 0
+  font-size: 22px;
+}
+
+.divlang {
+  width: 20%;
+  padding: 6px 0;
+}
+
+@media screen and (max-width: 1450px){
+  .divlang {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 1150px){
+  .divlang {
+    width: 33.33%;
+  }
+}
+
+@media screen and (max-width: 900px){
+  #lang {
+    font-size: 18px;
+  }
+  .title{
+    padding: 80px 0px 70px;
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 800px){
+  #lang {
+    width: 80%;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 800px){
+  #lang {
+    width: 80%;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 550px){
+  #lang {
+    width: 90%;
+    font-size: 12px;
+  }
+  .title{
+    padding: 50px 0px 40px;
+    font-size: 30px;
+  }
 }
